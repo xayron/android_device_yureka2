@@ -18,7 +18,7 @@
 # Inherit from YUREKA2 device
 $(call inherit-product, device/yu/YUREKA2/full_YUREKA2.mk)
 
-# Inherit some common RR stuff.
+# Inherit some common lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot animation
@@ -29,7 +29,7 @@ TARGET_DENSITY := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := rr_YUREKA2
+PRODUCT_NAME := lineage_YUREKA2
 BOARD_VENDOR := YU
 PRODUCT_DEVICE := YUREKA2
 
