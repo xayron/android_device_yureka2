@@ -19,7 +19,7 @@
 $(call inherit-product, device/yu/YUREKA2/full_YUREKA2.mk)
 
 # Inherit some common RR stuff.
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
